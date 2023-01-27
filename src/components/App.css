@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.connect {
+  margin: 20px;
+}
+
+.buyticket {
+  display: flex;
+  flex-direction: column;
+}
+.endgame-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.endgame-container form {
+  display: flex;
+  flex-direction: column;
+}
+.endgame-container input {
+  margin: 2px;
+}
+
+.wallets {
+  display: flex;
+  flex-direction: column;
+}
+
+.walletinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  gap: 10px;
+}
+.walletstats {
+  display: flex;
+  flex-direction: column;
+}
